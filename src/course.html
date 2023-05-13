@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a324c">
+    <meta name="msapplication-navbutton-color" content="#1a324c">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="course_static/css/main.css" />
+    <link rel="stylesheet" href="course_static/css/page.css" />
+    <link rel="stylesheet" href="course_static/css/articles.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3FM96129M"></script>
+    <script type="module" src="./js/main.js" def></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Y3FM96129M');
+    </script>
+
+
+    <title>Course - Michael</title>
+</head>
+
+<body>
+    <!-- ==== Header ==== -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="./img/mylogo.svg" alt="logo" />
+                </a>
+
+                <button id="theme-btn" class="align-self-center ms-auto me-3">
+                    <i class="bi bi-moon-fill"></i>
+                    <i class="bi bi-brightness-high-fill"></i>
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                    aria-table="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a href="./index.html#hero" aria-current="page" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./index.html#about_section" class="nav-link">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Projects</a>
+            </li> -->
+                        <li class="nav-item">
+                            <a href="/resume.html" class="nav-link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ==== End Header ==== -->
+
+
+    <main>
+        <section class="container">
+            <h1 class="section-title">Courses <span class="title-icon">&#128466;</span></h1>
+            <p class="section-subtitle">
+                Course content in Computer Programming
+            </p>
+        </section>
+        <section id="articles" class="container">
+            <input type="radio" id="all" name="tag" value="all" checked>
+            <input type="radio" id="os" name="tag" value="os">
+            <input type="radio" id="javascript" name="tag" value="javascript">
+            <input type="radio" id="database" name="tag" value="database">
+            <input type="radio" id="java" name="tag" value="java">
+
+            <aside class="post-tags">
+                <div class="post-tag">
+                    <label for="all" data-post="all">
+                        All (7)
+                    </label>
+                </div>
+                <div class="post-tag">
+                    <label for="os" data-post="os">
+                        Operating System (2)
+                    </label>
+                </div>
+                <div class="post-tag">
+                    <label for="java" data-post="java">
+                        JAVA (2)
+                    </label>
+                </div>
+                <div class="post-tag">
+                    <label for="javascript" data-post="javascript">
+                        JavaScript
+                    </label>
+                </div>
+                <div class="post-tag">
+                    <label for="database" data-post="database">
+                        Database (2)
+                    </label>
+                </div>
+            </aside>
+            <div class="main-content">
+                <div class="article" data-post="os">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8101 - Computer Essentials
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p> Learn to configure laptop
+                            environment, basic PC and troubleshoot problems,
+                            manage files through a basic understanding of the Windows Operating System.
+                            install and configure the Windows Operating System, and a virtual machine environment and
+                            explore
+                            computer organization including basic numerical systems, functional hardware and software
+                            components needed to run programs
+                        </p>
+                    </div>
+                </div>
+                <div class="article" data-post="java">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8116 - Introduction to Computer
+                            Programming
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p>
+                            Possessing the fundamentals of logic, problem-solving
+                            and
+                            programming language structure
+                            provides a solid foundation for further study in the field. Students develop
+                            introductory
+                            knowledge of computer programming with emphasis on problem analysis and design, using
+                            algorithms, pseudocode, flowcharts, UML Class Diagrams and testing, with the Java
+                            programming
+                            language used as a means to implement problem solution designs. Through an introduction
+                            to
+                            the
+                            Java programming language students use sequential structures, selection structures,
+                            repetition
+                            structures, variables, constants, methods, constructors, one-dimensional arrays,
+                            object-oriented
+                            programming, classes, objects, abstraction, encapsulation, inputs, outputs, coding
+                            conventions
+                            and documentation. Theory is reinforced with application by means of practical
+                            laboratory
+                            assessments.
+                        </p>
+                    </div>
+                </div>
+                <div class="article" data-post="database">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8215 - Introduction to Database
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p>
+                            Learn the fundamentals of relational databases design using Entity
+                            Relation
+                            Diagrams (ERDs), and use Structured Query Language (SQL) to create, modify and query a
+                            database.
+                            Students design and create databases that are maintainable, secure and adaptable to
+                            change
+                            in
+                            business requirements, using normalization. Students become familiar with the functions
+                            of a
+                            Database Management System (DBMS) and its components in comparison with legacy systems
+                            and
+                            alternative information storage mechanisms.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="article" data-post="os">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8102 - Operating System Fundamentals
+                            (GNU/Linux)
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p>
+                            Explore the basic concepts and
+                            components of
+                            Operating Systems (OS), and how they function and interact with hardware and software
+                            components. Examine the details of operating system structures, process
+                            management,
+                            storage management, installation, configuration, and administration both in theory and
+                            through
+                            practical assignments based on the GNU/Linux operating system. Lab work is designed to
+                            implement
+                            the theory by developing skills using the powerful GNU/Linux command-line tools and
+                            utilities.
+                        </p>
+                    </div>
+                </div>
+                <div class="article" data-post="java">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8284 - Object Oriented Programming
+                            (Java)
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p>
+                            Understanding
+                            of
+                            Object-Oriented Programming (OOP) concepts, explore object-oriented programming
+                            methodology using the Java programming language. Object oriented concepts, such as
+                            encapsulation, inheritance, abstraction and polymorphism are covered and reinforced with
+                            practical applications, explore the basics of data structures and algorithms as
+                            well as
+                            basic Graphical User Interface (GUI) programming.
+                        </p>
+                    </div>
+                </div>
+                <div class="article" data-post="javascript">
+                    <h2 class="article-title">
+                        <a href="https://www.algonquincollege.com/sat/program/computer-programming/#courses"
+                            target="_blank" rel="noopener">
+                            CST8285 - Web Programming
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p>
+                            Develop
+                            basic
+                            skills of web programming, website design and implementation, JavaScript, HTML5, and PHP.
+                        </p>
+                    </div>
+                </div>
+                <div class="article" data-post="database">
+                    <h2 class="article-title">
+                        <a href="##" target="_blank" rel="noopener">
+                            CST2355 - Database Systems
+                        </a>
+                    </h2>
+                    <div class="article-description">
+                        <p> Acquire practical experience using
+                            object-relational database management systems like Oracle and MySQL. Obtain
+                            hands-on
+                            experience with advanced engineering modeling tools along with SQL, SQL scripts and
+                            programming
+                            with Oracle's PL/SQL blocks. Database concepts covered include advanced SQL, case
+                            structures,
+                            rollup and cube operations, metadata manipulation, data storage and retrieval, security
+                            and
+                            transaction control and data warehousing
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Start footer ====  -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div>
+                        By&nbsp;<span class="author"> Wai Wai Chan, Michael</span>
+                    </div>
+
+                    <div class="text-center text-lg-end">
+                        <a href="https://github.com/MichaeLrn2Code" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/michaelwc93/" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ==== End footer ====  -->
+    </main>
+
+</body>
+
+</html>

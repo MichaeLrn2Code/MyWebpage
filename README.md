@@ -1,2 +1,3 @@
-# MyWebpage
-My Personal Webpage with resume
+Personal webpage contains my resume.
+
+Used skill: HTML, CSS, Javascript, Json, bootstrap
