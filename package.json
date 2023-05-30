@@ -1,14 +1,14 @@
 {
   "name": "@zougari47/portfolio-template",
   "version": "0.0.0",
-  "description": "🚀 Open source portfolio template for developers 👨‍💻(customizable, responsive 🔥). Fast way to create an awesome portfolio ⚡.Built with HTML, SASS, Bootstrap, and JavaScript✨.",
-  "author": "Ahmed Zougari<contact@ahmedzougari.com>",
-  "license": "MIT",
+  "description": "Michael Chan Personal Website",
   "scripts": {
     "dev": "vite src",
     "dev-host": "vite src --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -21,11 +21,13 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "curtainsjs": "^8.1.4",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "postcss-discard-comments": "^5.1.2",
     "postcss-load-config": "^3.1.4",
     "sass": "^1.57.1",
     "typed.js": "^2.0.12",
     "vite-plugin-minify": "^1.5.2"
-  }
+  },
+  "homepage": "http://MichaeLrn2Code.github.io/MyWebpage"
 }
