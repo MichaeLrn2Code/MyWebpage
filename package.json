@@ -1,4 +1,5 @@
 {
+  "homepage": "http://MichaeLrn2Code.github.io/MyWebpage",
   "name": "@zougari47/portfolio-template",
   "version": "0.0.0",
   "description": "Michael Chan Personal Website",
@@ -28,6 +29,6 @@
     "sass": "^1.57.1",
     "typed.js": "^2.0.12",
     "vite-plugin-minify": "^1.5.2"
-  },
-  "homepage": "http://MichaeLrn2Code.github.io/MyWebpage"
+  }
+  
 }
