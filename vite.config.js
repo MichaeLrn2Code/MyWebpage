@@ -1,6 +1,12 @@
 const path = require('path')
 import minify from 'vite-plugin-minify'
 
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/'
+})
+
 module.exports = {
   root: 'src',
 
